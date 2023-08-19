@@ -47,5 +47,5 @@ int main(int ac, char **av)
 	if (to_fd)
 		dprintf(STDERR_FILENO, ERR_NOCLOSE, from_fd), exit(100);
 
-	return (EXIT_SUCCESS);
+	return (0);
 }
